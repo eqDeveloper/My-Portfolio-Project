@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>Edgar's Portfolio</title>
+    <link rel="icon" href="images/letter_e_icon.png">
+    <link href="https://fonts.googleapis.com/css?family=Dosis:200,300,400,600,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <script type="text/javascript" src="js/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <div class="container">
+        <header class="row header">
+            <div class="col-md-2">
+            <svg class="logo" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120"><g opacity=".25" fill="none" stroke="#000" stroke-miterlimit="10"><path d="M73 85.5H8.5v-64h89V44"/><path stroke-width="2" d="M73.833 90H7.043C5.913 90 5 89.01 5 87.788V19.212C5 17.99 5.914 17 7.043 17h91.915c1.128 0 2.043.99 2.043 2.212v25.87M42 90h21v13H42z"/><path stroke-width="2" stroke-linecap="round" d="M32 103h41"/><path d="M74 85.5H20.5v-64h65V45"/><circle cx="25" cy="25" r="1"/><circle cx="29" cy="25" r="1"/><circle cx="33" cy="25" r="1"/><path d="M21 28.5h64M21 55.5l52.917.083M48.5 73.5h-20c-.552 0-1-.448-1-1v-10c0-.552.448-1 1-1h20c.552 0 1 .448 1 1v10c0 .552-.448 1-1 1zM74 73.53l-16.5-.03c-.552 0-1-.448-1-1v-10c0-.552.448-1 1-1l16.47-.03"/><path stroke-linecap="round" d="M28 76.5h15M57 76.5h11M71 76.5h3"/><path d="M45 49.5h16M57 34.174L51.15 38.5h4.275l-5.06 4.248"/><g><path stroke-width="2" d="M110.947 110H76.053c-1.134 0-2.053-.924-2.053-2.063V47.063c0-1.14.92-2.063 2.053-2.063h34.895c1.134 0 2.053.924 2.053 2.063v60.873c0 1.14-.92 2.064-2.053 2.064z"/><path d="M77.5 51.5h32v53h-32zM90 48.5h7M78 78.5h31M86 69.5h15"/><path d="M96 57.907L92.63 60.5h2.463l-2.917 2.398M103.5 96.5h-20c-.552 0-1-.448-1-1v-10c0-.552.448-1 1-1h20c.552 0 1 .448 1 1v10c0 .552-.448 1-1 1z"/><path stroke-linecap="round" d="M83 99.5h15"/></g></g> </svg>
+            </div>
+            <div class="col-md-10 text-right text-uppercase person-info">
+                <h1>Edgar Qui&#241;ones</h1>
+                <h3>Front-end Ninja</h3>
+            </div>
+        </header>
+        <hr class="row section-divider">
+
+        <div class="col-md-12 main-banner">
+            <img class="img-responsive main-banner" src="images/code-banner-image.jpg" alt="html code banner">
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <h1 class="featured-work">Featured Work</h1>
+            </div>
+        </div>
+        <section class="row project-list">
+            <div class="col-md-4 featured-project">
+                <img class="img-responsive featured-work-image" src="images/workspace.jpg" data-toggle="modal" data-target="#project1" alt="image of home office workspace">
+                <h3>APPIFY</h3>
+                <p>
+                    <a href="https://review.udacity.com/#!/rubrics/45/view" target="_blank">Link to project</a>
+                </p>
+            </div>
+            <div class="col-md-4 featured-project">
+                <img class="img-responsive featured-work-image" src="images/sunflower-image1.jpg" data-toggle="modal" data-target="#project2" alt="image of a sunflower">
+                <h3>SUNFLOWER</h3>
+                <p><a href="https://review.udacity.com/#!/rubrics/45/view" target="_blank">Link to project</a></p>
+            </div>
+
+            <div class="col-md-4 featured-project">
+                <img class="img-responsive featured-work-image" src="images/bokeh-city.jpg" data-toggle="modal" data-target="#project3" alt="bokeh image of city">
+                <h3>BOKEH</h3>
+                <p><a href="https://review.udacity.com/#!/rubrics/45/view" target="_blank">Link to project</a></p>
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal 1 Configuration -->
+    <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel1" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel1">My First Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/black-code.jpg" alt="screen with html code">
+                    <p>This is my first project. This is the start of a portfolio that is currently in progress and I will continue to improve as the course goes on...Stay tuned!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 2 Configuration -->
+    <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel2">My Second Project</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/coding-image.jpg" alt="picture of laptop">
+                    <p>My second project will go here. Come back soon!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal 3 Configuration -->
+    <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel3">Favorite App Page</h4>
+                </div>
+                <div class="modal-body">
+                    <img class="img-responsive" src="images/red_foliage_bokeh.jpg" alt="red foliage bokeh">
+                    <p>My third project will go here. Come back soon!</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

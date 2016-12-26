@@ -1,0 +1,58 @@
+ body {
+  font-family: 'Dosis', sans-serif;
+  color: #2d3c49;
+ }
+
+ .section-divider {
+  height: 3px;
+  background-color: #7d97ad;
+  margin-right: 0px;
+  margin-left: 0px;
+ }
+
+ .logo {
+  margin: 15px;
+  margin-top: 25px;
+  margin-bottom: 0;
+  width: 125px;
+  height: 125px;
+  border: 3px solid #02b3e4;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 6em;
+  font-weight: 300;
+  color: #02b3e4;
+ }
+
+ .person-info {
+  float: right;
+ }
+
+ .person-info h1 {
+  font-size: 5em;
+  font-weight: 200;
+ }
+
+ .person-info h3 {
+  font-size: 2em;
+  font-weight: 600;
+ }
+
+ .main-banner {
+  height: 400px;
+  width: 100%;
+  padding: 0;
+ }
+
+ .featured-work {
+  color: #7d97ad;
+ }
+
+ .featured-project {
+  text-align: center;
+ }
+
+ .featured-work-image {
+  height: 250px;
+  cursor: pointer;
+ }

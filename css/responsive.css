@@ -1,0 +1,86 @@
+@media screen and (max-width: 992px) {
+
+  .header {
+    display: flex;
+  }
+
+  .logo {
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    width: 90px;
+    height: 90px;
+    border: 3px solid #02b3e4;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 300;
+    color: #02b3e4;
+  }
+
+  .person-info {
+    width: 80%;
+  }
+
+  .person-info h1 {
+    font-size: 3em;
+    font-weight: 200;
+  }
+
+  .person-info h3 {
+    font-size: 1em;
+    font-weight: 600;
+  }
+
+  .main-banner {
+    height: 300px;
+    width: 100%;
+    padding: 0;
+  }
+
+  .project-list {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+
+  .featured-project {
+    width: 33.33%;
+  }
+
+}
+
+@media screen and (max-width: 739px) {
+
+  .logo {
+    margin: 15px;
+    margin-top: 25px;
+    margin-bottom: 0;
+    width: 90px;
+    height: 90px;
+    border: 3px solid #02b3e4;
+    border-radius: 100%;
+    text-align: center;
+    font-size: 4em;
+    font-weight: 300;
+    color: #02b3e4;
+  }
+
+  .project-list {
+    display: block;
+  }
+
+  .featured-project {
+    width: 100%;
+  }
+
+  .featured-work-image {
+    height: 250px;
+    width: 350px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+}
